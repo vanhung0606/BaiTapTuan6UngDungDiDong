@@ -1,0 +1,29 @@
+name: tuan06
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  image_picker: ^0.8.7+4
+  permission_handler: ^11.2.0
+  video_player: ^2.5.1
+  flutter_contacts_service: ^0.0.3
+  another_telephony: ^0.3.0
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audios/
